@@ -1,0 +1,78 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/QHncz6f/Font-Awesome-5-brands-github-svg.png"
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/dmGFSX2/horizontal-logo-monochromatic-white.png"
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/rtcCxYs/HTML5-logo-and-wordmark-svg.png"
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co/376J1H9/Mongo-DB-Logo.png"
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co/S7FV6wN/Netlify-logo-svg.png"
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co/hW4LGBR/next-js-logo-7929-BCD36-F-seeklogo-com.png"
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co/mRq0Mwh/png-transparent-jwt-io-json-web-token-hd-logo.png"
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co/FDGnTdk/React-Native.png"
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co/wQJtcmd/react-router-stacked-color-inverted.png"
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co/HCYrGsB/Tailwind-CSS-Logo-svg.png"
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co/WG7sP5S/Unofficial-Java-Script-logo-2-svg.png"
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co/TMvxhPR/512px-Firebase-Logo-svg.png"
+  },
+  {
+    "id": 13,
+    "image": "https://i.ibb.co/n8808Hb/540px-Npm-logo-svg.png"
+  },
+  {
+    "id": 14,
+    "image": "https://i.ibb.co/X244ny9/640px-Sass-Logo-Color-svg.png"
+  },
+  {
+    "id": 15,
+    "image": "https://i.ibb.co/Ntjw0SR/2560px-Amazon-Web-Services-Logo-svg.png"
+  },
+  {
+    "id": 16,
+    "image": "https://i.ibb.co/sWc551V/1657702911-vercel-logotype-light-20211228160702-0.png"
+  },
+  {
+    "id": 17,
+    "image": "https://i.ibb.co/Y7t22RS/b28165db-1eed-4f6a-9027-8f3317357e55-cover.png"
+  },
+  {
+    "id": 18,
+    "image": "https://i.ibb.co/Wv2c86S/Bootstrap-logo-svg.png"
+  },
+  {
+    "id": 19,
+    "image": "https://i.ibb.co/QncKwsw/CSS3-logo-and-wordmark-svg.png"
+  }
+]
