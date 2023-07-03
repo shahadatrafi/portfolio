@@ -8,7 +8,7 @@ const Contact = () => {
                 <h1 className="text-5xl font-bold text-center mb-30"><span className='text-cyan-400 border-b-4 border-cyan-500'>Contact</span> Me</h1>
             </div>
             <div className="">
-                <div className="hero-content flex-col lg:flex-row-reverse mb-16">
+                <div className="hero-content flex-col lg:flex-row-reverse mx-auto mb-16">
                     <div className="card flex-shrink-0 w-full max-w-xl shadow-2xl bg-base-100">
                         <form className="card-body w-full">
                             <div className="form-control">

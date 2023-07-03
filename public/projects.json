@@ -1,21 +1,36 @@
 [
-    {
-      "name": "Heros Recipe",
-      "liveLink": "https://chef-hunter-8afba.web.app/",
-      "codeLink": "https://github.com/shahadatrafi/Hero-s-recipe",
-      "img": "https://i.ibb.co/NL06WyG/image.png"
+  {
+    "name": "Heros Recipe",
+    "liveLink": "https://chef-hunter-8afba.web.app/",
+    "codeLink": "https://github.com/shahadatrafi/Hero-s-recipe",
+    "img": "https://i.ibb.co/NL06WyG/image.png",
+    "features": [
+    "Implement Firebase authentication",
+    "Create chef's profile dynamically",
+    "Create a Private route. some page special for user"
+    ]
     },
     {
       "name": "Turbo Toys",
       "liveLink": "https://turbo-toys.web.app/",
       "codeLink": "https://github.com/shahadatrafi/turbo-toys",
-      "img": "https://i.ibb.co/2kDj1LB/image.png"
-    },
-    {
-      "name": "Sound Wave",
-      "liveLink": "https://soundwave-e8dde.web.app/",
-      "codeLink": "https://github.com/shahadatrafi/SoundWave-Client",
-      "img": "https://i.ibb.co/nCK8bkd/image.png"
-    }
+      "img": "https://i.ibb.co/2kDj1LB/image.png",
+      "features": [
+      "Add a tab section to showcase categories",
+      "seller can see owned added toys",
+      "seller will add, update, and delete toys"
+      ]
+      },
+      {
+        "name": "Sound Wave",
+        "liveLink": "https://soundwave-e8dde.web.app/",
+        "codeLink": "https://github.com/shahadatrafi/SoundWave-Client",
+        "img": "https://i.ibb.co/nCK8bkd/image.png",
+        "features": [
+        "Integrate Stripe payment gateway to enroll in a class",
+        "Build a Dashboard for Students, Instructors, and Admins",
+        "Implement Admin and Instructors verification"
+        ]
+        }
   ]
   
