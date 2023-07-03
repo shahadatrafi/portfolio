@@ -1,6 +1,7 @@
+/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 
-const ProjectCard = ({ project }) => {
+const ProjectCard = ( {project} ) => {
     
     const { img, liveLink, codeLink, name } = project;
 

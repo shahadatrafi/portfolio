@@ -1,6 +1,8 @@
 import profile from '../../../../assets/shahadatRafi.jpg'
 
 const AboutMe = () => {
+
+
     return (
         <div className="hero my-32" id='about'>
             <div className="container ">
@@ -20,7 +22,7 @@ const AboutMe = () => {
                         <p className="py-6 max-w-2xl text-justify ">
                             I am excited to collaborate and bring your ideas to life. Let&apos;s work together to develop innovative solutions that meet your specific needs and exceed your expectations.
                         </p>
-                        <button className="btn mt-8 bg-cyan-400 text-black tracking-wider hover:bg-cyan-600 ">Get Resume</button>
+                        <a href="Frontend Developer - Shahadat Rafi's Resume (1).pdf" download="Frontend Developer - Shahadat Rafi's Resume (1).pdf"><button className="btn mt-8 bg-cyan-400 text-black tracking-wider hover:bg-cyan-600 ">Get Resume</button></a>
                     </div>
                 </div>
             </div>

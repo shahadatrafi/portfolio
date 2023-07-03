@@ -1,5 +1,4 @@
 
-import banner from '../../../../assets/HomeBanner.jpg'
 import Lottie from 'react-lottie';
 import animationData from '../../../../assets/118785-responsive-website-design.json';
 
