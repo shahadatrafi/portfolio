@@ -2,7 +2,7 @@ import profile from '../../../../assets/shahadatRafi.jpg'
 
 const AboutMe = () => {
     return (
-        <div className="hero my-32">
+        <div className="hero my-32" id='about'>
             <div className="container ">
                 <div className="hero-content flex-col lg:flex-row-reverse lg:justify-between">
                     <img src={profile} className="max-w-md w-5/12 rounded-lg shadow-2xl" />

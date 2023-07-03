@@ -14,7 +14,7 @@ const Banner = () => {
         },
     };
     return (
-        <div className="hero h-[250ox] md:h-[450px] ">
+        <div className="hero h-[250ox] md:h-[450px] " id="banner">
             <div className="hero-overlay bg-opacity-60"></div>
             <div className='container mx-auto'>
                 <div className="hero-content text-neutral-content">

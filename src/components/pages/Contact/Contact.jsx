@@ -3,7 +3,7 @@ import { FaCircleCheck, FaEnvelope, FaFacebook, FaLinkedinIn, FaLocationDot, FaM
 
 const Contact = () => {
     return (
-        <div className="container mx-auto mb-28">
+        <div className="container mx-auto mb-28" id="contact">
             <div>
                 <h1 className="text-5xl font-bold text-center mb-30"><span className='text-cyan-400 border-b-4 border-cyan-500'>Contact</span> Me</h1>
             </div>

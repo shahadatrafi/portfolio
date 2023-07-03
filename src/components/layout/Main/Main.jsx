@@ -1,4 +1,6 @@
 import { Outlet } from "react-router-dom";
+import { Link } from 'react-scroll'
+
 import profilePic from '../../../assets/Shahadat Rafi 2.jpg'
 
 const Main = () => {
@@ -20,12 +22,11 @@ const Main = () => {
                             <img src={profilePic} />
                         </div>
                     </div>
-                    <li className="font-semibold text-xl"><a>Home</a></li>
-                    <li className="font-semibold text-xl"><a>About Me</a></li>
-                    <li className="font-semibold text-xl"><a>Skills</a></li>
-                    <li className="font-semibold text-xl"><a>Projects</a></li>
-                    <li className="font-semibold text-xl"><a>Testimonial</a></li>
-                    <li className="font-semibold text-xl"><a>Contact</a></li>
+                    <li className="font-semibold text-xl"><Link to="banner" spy={true} smooth={true} offset={50} duration={500} >Home</Link></li>
+                    <li className="font-semibold text-xl"><Link to="about" spy={true} smooth={true} offset={50} duration={500} >About Me</Link></li>
+                    <li className="font-semibold text-xl"><Link to="skills" spy={true} smooth={true} offset={50} duration={500} >Skills</Link></li>
+                    <li className="font-semibold text-xl"><Link to="projects" spy={true} smooth={true} offset={50} duration={500} >Projects</Link></li>
+                    <li className="font-semibold text-xl"><Link to="contact" spy={true} smooth={true} offset={50} duration={500} >Contact</Link></li>
                 </ul>
 
             </div>
