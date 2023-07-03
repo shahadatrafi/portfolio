@@ -5,7 +5,7 @@ const Contact = () => {
     return (
         <div className="container mx-auto mb-28" id="contact">
             <div>
-                <h1 className="text-5xl font-bold text-center mb-30"><span className='text-cyan-400 border-b-4 border-cyan-500'>Contact</span> Me</h1>
+                <h1 className="text-5xl font-bold text-center mb-10"><span className='text-cyan-400 border-b-4 border-cyan-500'>Contact</span> Me</h1>
             </div>
             <div className="">
                 <div className="hero-content flex-col lg:flex-row-reverse mx-auto mb-16">
