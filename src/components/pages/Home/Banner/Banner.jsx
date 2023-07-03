@@ -4,6 +4,7 @@ import animationData from '../../../../assets/118785-responsive-website-design.j
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import './banner.css'
 
 
 
@@ -22,8 +23,7 @@ const Banner = () => {
         },
     };
     return (
-        <div className="hero h-[450px] aos-init" id="banner" data-aos="fade-in" data-aos-duration="1000">
-            <div className="hero-overlay bg-opacity-60"></div>
+        <div className="hero banner h-[650px] aos-init" id="banner" data-aos="fade-in" data-aos-duration="1000">
             <div className='container mx-auto'>
                 <div className="hero-content text-neutral-content">
                     <div className="w-full md:w-3/4">
