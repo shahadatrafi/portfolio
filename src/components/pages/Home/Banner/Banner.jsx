@@ -1,9 +1,18 @@
 
 import Lottie from 'react-lottie';
 import animationData from '../../../../assets/118785-responsive-website-design.json';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 
 
 const Banner = () => {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
+      
     const defaultOptions = {
         loop: true, // Set it to false if you don't want the animation to loop
         autoplay: true, // Set it to false if you don't want the animation to play automatically
@@ -13,7 +22,7 @@ const Banner = () => {
         },
     };
     return (
-        <div className="hero h-[450px] " id="banner">
+        <div className="hero h-[450px] aos-init" id="banner" data-aos="fade-in" data-aos-duration="1000">
             <div className="hero-overlay bg-opacity-60"></div>
             <div className='container mx-auto'>
                 <div className="hero-content text-neutral-content">

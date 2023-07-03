@@ -1,14 +1,20 @@
 import { FaCircleCheck } from "react-icons/fa6";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const Skills = () => {
-
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div className="container mx-auto mb-28" id="skills">
       <div>
         <h1 className="text-5xl font-bold text-center mb-20">My  <span className='text-cyan-400 border-b-4 border-cyan-500'> Expertise</span>  </h1>
       </div>
       <div className="mx-auto">
-        <div className="flex flex-col lg:flex-row gap-12">
+        <div className="flex flex-col lg:flex-row gap-12 aos-init" data-aos-duration="1000" data-aos="fade-up">
           <div className="w-full md:w-1/3">
             <h1 className="text-3xl text-center mb-10 font-bold">Frontend Skills</h1>
             <ul>

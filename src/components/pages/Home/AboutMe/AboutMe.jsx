@@ -1,14 +1,20 @@
 import profile from '../../../../assets/shahadatRafi.jpg'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const AboutMe = () => {
-
-
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+    }, []);
+    
     return (
         <div className="hero my-32" id='about'>
             <div className="container">
                 <div className="hero-content flex-col lg:flex-row-reverse lg:justify-between">
-                    <img src={profile} className="max-w-md md:w-5/12 mb-20 md:mb-0 rounded-lg shadow-2xl" />
-                    <div className='md:w-6/12'>
+                    <img src={profile} className="max-w-md md:w-5/12 mb-20 md:mb-0 rounded-lg shadow-2xl aos-init" data-aos="fade-left" data-aos-duration="1000"/>
+                    <div className='md:w-6/12 aos-init' data-aos="fade-right" data-aos-duration="1000">
                         <h1 className="text-5xl font-bold mb-12"> <span className='text-cyan-400 border-b-4 border-cyan-500'>About</span> Me </h1>
                         <p className="py-6 max-w-2xl text-justify ">
                             Hi there! I&apos;m Shahadat Hossen Rafi, a passionate web developer with a strong focus on building outstanding web applications. With my expertise in HTML, CSS, and JavaScript, I have successfully completed numerous projects, showcasing my skills in front-end development.

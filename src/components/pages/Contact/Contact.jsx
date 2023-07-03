@@ -1,9 +1,16 @@
 import { FaEnvelope, FaFacebook, FaLinkedinIn, FaLocationDot, FaMobileScreen } from "react-icons/fa6";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 
 const Contact = () => {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
     return (
-        <div className="container mx-auto mb-28" id="contact">
+        <div className="container mx-auto mb-28 aos-init" data-aos="fade-up" data-aos-duration="1000" id="contact">
             <div>
                 <h1 className="text-5xl font-bold text-center mb-10"><span className='text-cyan-400 border-b-4 border-cyan-500'>Contact</span> Me</h1>
             </div>
