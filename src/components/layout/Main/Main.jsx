@@ -9,8 +9,9 @@ const Main = () => {
             <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
             <div className="drawer-content flex flex-col ">
                 {/* Page content here */}
+                
+                <label htmlFor="my-drawer-2" className="btn  bg-cyan-400 text-black tracking-wider hover:bg-cyan-600 drawer-button lg:hidden">Open Navigation</label>
                 <Outlet></Outlet>
-                <label htmlFor="my-drawer-2" className="btn btn-primary drawer-button lg:hidden">Open drawer</label>
 
             </div>
             <div className="drawer-side">
@@ -22,7 +23,7 @@ const Main = () => {
                             <img src={profilePic} />
                         </div>
                     </div>
-                    <li className="font-semibold text-xl"><Link to="banner" spy={true} smooth={true} offset={50} duration={500} >Home</Link></li>
+                    <li className="font-semibold text-xl"><a href="/" >Home</a></li>
                     <li className="font-semibold text-xl"><Link to="about" spy={true} smooth={true} offset={50} duration={500} >About Me</Link></li>
                     <li className="font-semibold text-xl"><Link to="skills" spy={true} smooth={true} offset={50} duration={500} >Skills</Link></li>
                     <li className="font-semibold text-xl"><Link to="projects" spy={true} smooth={true} offset={50} duration={500} >Projects</Link></li>

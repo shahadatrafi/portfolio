@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 
 const Projects = () => {
 
+    const path = '/'
+
     const [projects, setProjects] = useState([]);
     useEffect(() => {
         fetch('./projects.json')
@@ -25,7 +27,7 @@ const Projects = () => {
                 }
             </div>
             <div className="mt-8 text-center">
-            <Link target="_blank"><button className="btn bg-cyan-400 text-black tracking-wider hover:bg-cyan-600 ">view All Projects</button></Link>
+            {path == '/' ? <Link to='/projects'><button className="btn bg-cyan-400 text-black tracking-wider hover:bg-cyan-600 ">view All Projects</button></Link>: <></>}
             </div>
         </div>
     );
