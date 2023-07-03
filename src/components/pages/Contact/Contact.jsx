@@ -1,10 +1,24 @@
 import { FaEnvelope, FaFacebook, FaLinkedinIn, FaLocationDot, FaMobileScreen } from "react-icons/fa6";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect } from 'react';
+import { useEffect, useRef, } from 'react';
+import emailjs from '@emailjs/browser';
 
 
 const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_cpjfpfb', 'template_s74jf8c', form.current, 'wkepOqHDe7kBZSKDB')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+    };
+    
     useEffect(() => {
         AOS.init();
         AOS.refresh();
@@ -17,18 +31,18 @@ const Contact = () => {
             <div className="">
                 <div className="hero-content flex-col lg:flex-row-reverse mx-auto mb-16">
                     <div className="card flex-shrink-0 w-full max-w-xl shadow-2xl bg-base-100">
-                        <form className="card-body w-full">
+                        <form ref={form} onSubmit={sendEmail} className="card-body w-full">
                             <div className="form-control">
-                                <input type="text" placeholder="Email" className="input input-bordered" />
+                                <input type="text" placeholder="Email" name="user_email" className="input input-bordered" />
                             </div>
                             <div className="form-control">
-                                <input type="text" placeholder="Name" className="input input-bordered" />
+                                <input type="text" placeholder="Name" name="user_name" className="input input-bordered" />
                             </div>
                             <div className="form-control">
-                                <textarea className="textarea textarea-bordered h-24" placeholder="Type your message here"></textarea>
+                                <textarea name="message" className="textarea textarea-bordered h-24" placeholder="Type your message here"></textarea>
                             </div>
                             <div className="form-control mt-6">
-                                <button className="btn  bg-cyan-400 text-black tracking-wider hover:bg-cyan-600 ">Login</button>
+                                <input type="submit" value="Send" className="btn  bg-cyan-400 text-black tracking-wider hover:bg-cyan-600 "></input>
                             </div>
                         </form>
                     </div>
